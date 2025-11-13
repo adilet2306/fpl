@@ -7,10 +7,10 @@ Click your Points tab.
 In the URL, the number right after /entry/ is your FPL Manager ID.
 Example: https://fantasy.premierleague.com/entry/3273218/event/11 → ID is 3273218.
 
-You need to have python3 installed, for MacOS:
+You need to have python3 and git installed, for MacOS:
 
 ```bash
-brew install python3
+brew install python3 git
 ```
 
 Setup & Run
@@ -19,7 +19,7 @@ Setup & Run
 pip3 install requests
 git clone https://github.com/adilet2306/fpl.git
 cd fpl
-python3 fpl.py
+python3 points.py
 ```
 When prompted:
 
